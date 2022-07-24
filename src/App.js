@@ -5,7 +5,9 @@ import Review from './components/Review.js'
 function App() {
   return (
     <div className="App">
-      <h1>KIDS BOOKS TO CHECK OUT</h1>
+      <div>
+        <h1>KIDS BOOKS TO CHECK OUT</h1>
+      </div>
       <Review 
         bookTitle="Ahmad Aziz's Epic Year"
         image='AhmedAzizsEpicYear'
