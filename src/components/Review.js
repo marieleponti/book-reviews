@@ -7,7 +7,7 @@ function Review(props){
       <img 
         className='review-image'
         src={require(`../images/bookcover_${props.image}.png`)}
-        alt='First Review Ahmed Azizs Epic Year'
+        alt={`${props.bookTitle}`}
       />
       <div className='text-review-container'>
         <p className='book-title'>
