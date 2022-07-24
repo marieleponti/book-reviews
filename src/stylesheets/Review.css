@@ -1,0 +1,52 @@
+.review-container {
+  width:  1170px;
+  height: 368px;
+  margin: 10px, 10px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  box-shadow: 0 3px 13px 1px rgb(0 0 0 /  9%);
+}
+
+
+.review-image {
+  height: 90%;
+  margin-left: 20px;
+}
+
+
+.text-review-container {
+  text-align: center;
+  padding: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+
+.book-title {
+  font-size: 1.3rem;
+}
+
+
+.author {
+  font-size: 1.2rem;
+  margin-top: 15px;
+  padding-bottom: 30px;
+}
+
+
+.synopsis {
+  font-size: 1rem;
+  text-align: justify;
+  padding-bottom: 15px;
+
+}
+
+
+.review-text {
+  font-size: 1.1rem;
+  text-align: justify;
+
+}
